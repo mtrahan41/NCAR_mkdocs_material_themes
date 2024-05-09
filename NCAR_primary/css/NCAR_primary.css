@@ -25,10 +25,11 @@
   --md-default-bg-color:         #f1f4f7;
   --md-typeset-a-color:          rgb(28,101,143); /* PMS 2152 (NCAR Blue) */
 
-  /* the above (--md-typeset-a-color) doesn't seem to work in material>9.5, so duplicate spec here too: */
+  /* the above (--md-typeset-a-color) doesn't seem to work in material>9.5, so duplicate spec here too:
   .md-typeset a {
-      color:                     rgb(28,101,143); /* PMS 2152 (NCAR Blue) */
+      color:                     rgb(28,101,143); /* PMS 2152 (NCAR Blue)
   }
+  */
 
   /* Primary color shades */
   --md-primary-fg-color:         rgb(28,101,143); /* PMS 2152 (NCAR Blue) */
@@ -90,7 +91,7 @@
 
   /* Coloring for icon of Tip,Hint,and Important */
   .md-typeset :is(.tip,.hint,.important)>:is(.admonition-title,summary):before {
-      background-color: rgb(195,215,238) /* PMS 2707 (Background Blue 1) */
+      background-color: rgb(195,215,238); /* PMS 2707 (Background Blue 1) */
   }
 
 
@@ -113,10 +114,10 @@
   --md-typeset-color:                  rgb(217,217,214); /* PMS Cool Gray 1 */
   --md-typeset-a-color:                rgb(195,215,238); /* PMS 2707 (Background Blue 1) */
 
-  /* the above (--md-typeset-a-color) doesn't seem to work in material>9.5, so duplicate spec here too: */
+  /* the above (--md-typeset-a-color) doesn't seem to work in material>9.5, so duplicate spec here too:
   .md-typeset a {
-      color:                           rgb(195,215,238); /* PMS 2707 (Background Blue 1) */
-  }
+      color:                           rgb(195,215,238); /* PMS 2707 (Background Blue 1)
+  }*/
 
   --md-default-bg-color:               #0f1010;
   --md-default-fg-color:               rgb(219,226,233);      /* PMS 649 (Background Blue 3) */
