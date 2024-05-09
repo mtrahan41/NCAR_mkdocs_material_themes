@@ -21,10 +21,11 @@
   --md-default-fg-color--lightest:  rgba(11,33,57,0.3);
   --md-typeset-a-color:             rgb(28,101,143); /* PMS 2152 (NCAR Blue) */
 
-  /* the above (--md-typeset-a-color) doesn't seem to work in material>9.5, so duplicate spec here too: */
+  /* the above (--md-typeset-a-color) doesn't seem to work in material>9.5, so duplicate spec here too:
   .md-typeset a {
-      color:                     rgb(28,101,143); /* PMS 2152 (NCAR Blue) */
+      color:                     rgb(28,101,143); /* PMS 2152 (NCAR Blue)
   }
+  */
 
   /* Primary color shades */
   --md-primary-fg-color:         rgb(219,226,233); /* PMS 649 (Background Blue 3) */
